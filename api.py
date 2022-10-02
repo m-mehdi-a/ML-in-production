@@ -3,7 +3,7 @@ from inference import infer
 
 app = Flask(__name__)
 
-i = infer()
+model = infer()
 
 @app.route('/predict/', methods=['GET', 'POST'])
 def predict():
@@ -12,7 +12,7 @@ def predict():
     text = content["text"]
     candidate_labels = content["candidate_labels"]
 
-    prediction = i.predict(
+    prediction = model.predict(
         text=text,
         candidate_lab=candidate_labels
     )

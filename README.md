@@ -1,6 +1,6 @@
 # ML-in-production
 
-In this project, I use pre-trained models from Hugging Face and demonstrate how we can use a model prediction in real time. 
+In this project, I use pre-trained models from [Hugging Face](https://huggingface.co/) and demonstrate how we can use a model prediction in real time. 
 
 For this specific demo, I use the text classification model from Facebook [here](https://huggingface.co/facebook/bart-large-mnli). 
 

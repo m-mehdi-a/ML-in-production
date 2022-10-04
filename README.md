@@ -15,7 +15,7 @@ Then, I run a container from the generated image using:
 ```
 docker run -it -p 5000:5000 ml-api python3 api.py
 ```
-which runs the container on port 5000 from localhost. I demo the result in ```demo.ipynb``` noteboook.
+which runs the container on port 5000 from localhost. **I demo the result in ```demo.ipynb``` noteboook.**
 
 More precisely, you can send your requests to the model using a dictionary. e.g., 
 
